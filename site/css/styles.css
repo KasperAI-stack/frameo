@@ -451,6 +451,8 @@ h1 {
 .split-text { color: var(--muted); font-size: 1.15rem; margin: 0; max-width: var(--read); }
 .split-text p { margin: 0 0 1rem; }
 .split-text p:last-child { margin-bottom: 0; }
+/* Punchlines: nøgleordet forrest i hver linje står mørkt, så øjet kan scanne ned langs venstre kant (F-mønster) */
+.split-text strong { color: var(--ink); font-weight: 600; }
 @media (min-width: 56rem) {
   .split { grid-template-columns: 1fr 1fr; align-items: start; }
   .split-text { margin-top: .5rem; }
